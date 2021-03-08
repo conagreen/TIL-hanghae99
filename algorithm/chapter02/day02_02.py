@@ -14,4 +14,4 @@ for self_num in numbers :
     print(self_num)
 
 
-# 함수형으로 다시 접근하기 
+# 함수형으로 다시 접근하기
