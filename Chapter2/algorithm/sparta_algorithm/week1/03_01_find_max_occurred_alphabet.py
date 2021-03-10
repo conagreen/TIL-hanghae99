@@ -1,4 +1,4 @@
-# 최빈값 찾기 방식1
+# 최빈값 찾기 방식1 
 
 input = "hello my name is sparta"
 

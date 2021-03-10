@@ -1,5 +1,5 @@
 # 최빈값 찾기 방식2
-
+ 
 input = "hello my name is sparta"
 
 def find_max_occurred_alphabet(string):

@@ -1,4 +1,4 @@
-# 알파벳 빈도수 세기 (아스키 코드 이용)
+# 알파벳 빈도수 세기 (아스키 코드 이용) 
 
 def find_alphabet_occurrence_array(string):
     alphabet_occurrence_array = [0] * 26
