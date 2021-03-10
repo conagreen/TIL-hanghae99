@@ -16,4 +16,4 @@ for disk in range(total_disk):
     total_mvmt += 1
 
 print(total_mvmt)
-hanoi(total_disk, 1, 2, 3)
+hanoi(total_disk, 1, 2, 3) 

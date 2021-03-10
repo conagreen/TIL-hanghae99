@@ -13,7 +13,7 @@ while start <= end:                             # 적절한 벌목 높이를 찾
         if i > mid:
             log += i - mid                      # log = log + i - mid
                                             
-    # 벌목 높이를 이분탐색
+    # 벌목 높이를 이분탐색  
     if log >= M:                             
         start = mid + 1
     else:
