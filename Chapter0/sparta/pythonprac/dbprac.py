@@ -2,7 +2,7 @@ from pymongo import MongoClient
 client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
-# insert / find / update / delete
+# insert / find / update / delete 
 
 # insert 예시 -----------------------------------------------------
 doc = {'name':'jane','age':21}

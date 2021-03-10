@@ -2,7 +2,7 @@ from pymongo import MongoClient
 client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
-# quiz 1 - 영화제목 '매트릭스'의 평점을 가져오기
+# quiz 1 - 영화제목 '매트릭스'의 평점을 가져오기 
 score = db.movies.find_one({'title':'매트릭스'})['star']
 print(score)
 
