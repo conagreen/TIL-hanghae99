@@ -1,6 +1,6 @@
 # 백준 문제번호 - 10869
 
-a,b = input().split()
+a,b = input().split() 
 
 a = int(a)
 b = int(b)

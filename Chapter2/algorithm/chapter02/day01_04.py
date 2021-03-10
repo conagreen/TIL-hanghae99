@@ -2,7 +2,7 @@
 
 tmp = inp = int(input())
 count = 0
-while True:
+while True: 
     ten = tmp//10
     one = tmp%10
     res = ten + one

@@ -1,7 +1,7 @@
 # 백준 문제번호 - 2588
 
 # 방식1
-a = int(input())
+a = int(input()) 
 b = input()
 
 R1 = int(b[2]) * a 
