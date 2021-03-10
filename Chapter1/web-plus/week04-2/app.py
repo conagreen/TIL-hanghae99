@@ -16,7 +16,7 @@ SECRET_KEY = 'SPARTA'
 # client = MongoClient('내AWS아이피', 27017, username="아이디", password="비밀번호")
 # db = client.dbsparta_plus_week4
 
-client = MongoClient('localhost', 27017)
+client = MongoClient('localhost', 27017) 
 db = client.dbsparta_plus_week4
 
 @app.route('/')
