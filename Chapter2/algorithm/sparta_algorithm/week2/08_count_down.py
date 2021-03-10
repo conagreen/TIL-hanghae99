@@ -8,4 +8,4 @@ def count_down(number):
     count_down(number - 1) # count_down 함수를 number - 1 인자를 주고 다시 호출한다!
 
 
-count_down(60)
+count_down(60) 
