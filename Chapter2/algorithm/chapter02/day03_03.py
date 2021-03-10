@@ -14,7 +14,7 @@ M, N = map(int, input().split())
 for i in range(M, N+1):
     if isPrime(i):
         print(i)
-
+ 
 # 튜터님 코멘트 메모
 
 # 1 * (x != 1)

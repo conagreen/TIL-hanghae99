@@ -13,7 +13,7 @@ for i in range(t):
   # 호수 구하기
   line = n // h + 1
 
-  # 사람수가 층수로 나누어질때
+  # 사람수가 층수로 나누어질때 
   if n % h == 0:    # 꼭대기 층
     floor = h
     line = n // h

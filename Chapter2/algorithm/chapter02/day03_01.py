@@ -12,4 +12,4 @@ day = (v-b)/(a-b)
 
 print(math.ceil(day))
 
-# math를 사용하지 않는다면?
+# math를 사용하지 않는다면? 
