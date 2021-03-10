@@ -7,7 +7,7 @@ unique_words = list(set(words))  #aple
 cnt_list = []
 for x in unique_words : a  p  l  e
     cnt = words.count(x) #1211
-    cnt_list.append(cnt) 
+    cnt_list.append(cnt)  
     # 1
     # 2
     # 1
