@@ -7,7 +7,7 @@ client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
 
-# DB에 저장할 영화인들의 출처 url을 가져옵니다.
+# DB에 저장할 영화인들의 출처 url을 가져옵니다. 
 def get_urls():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
