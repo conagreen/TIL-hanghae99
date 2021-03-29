@@ -1,18 +1,18 @@
 # 백준 문제번호 - 1929
 
 def isPrime(num):
-    if num == 1:
+    if num == 1:    # 1은 소수도 합성수도 아님
         return False
     else:
-        for i in range(2, int(num ** 0.5) + 1):
+        for i in range(2, int(num ** 0.5) + 1): # 2 ~ num의 제곱근까지만 검사 ex) 9의 제곱근은 3
             if num % i == 0:
                 return False
         return True
 
-M, N = map(int, input().split())
+M, N = map(int, input().split())    # M:3 N:16
 
-for i in range(M, N+1):
-    if isPrime(i):
+for i in range(M, N+1): # 3 ~ 16
+    if isPrime(i):  # i:3
         print(i)
  
 # 튜터님 코멘트 메모
