@@ -18,4 +18,5 @@ public class URLValidator {
             return false;
         }
     }
+
 }

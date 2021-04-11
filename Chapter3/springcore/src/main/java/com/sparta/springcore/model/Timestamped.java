@@ -18,6 +18,6 @@ public abstract class Timestamped {
     @CreatedDate // 최초 생성 시점
     private LocalDateTime createdAt;
 
-    @LastModifiedDate // 마지막 변경 시점
+    @LastModifiedDate // 마지막 수정 시점
     private LocalDateTime modifiedAt;
 }

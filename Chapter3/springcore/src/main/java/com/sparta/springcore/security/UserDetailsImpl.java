@@ -63,4 +63,5 @@ public class UserDetailsImpl implements UserDetails {
 
         return authorities;
     }
+
 }

@@ -70,4 +70,5 @@ public class FolderService {
         Pageable pageable = PageRequest.of(page, size, sort);
         return productRepository.findAllByUserIdAndFolderList_Id(user.getId(), folderId, pageable);
     }
+
 }

@@ -79,4 +79,5 @@ public class KakaoOAuth2 {
 
         return new KakaoUserInfo(id, email, nickname);
     }
+
 }

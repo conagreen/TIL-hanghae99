@@ -85,7 +85,6 @@ public class TestDataRunner implements ApplicationRunner {
 
         productRepository.saveAll(productList);
     }
-
     public int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }

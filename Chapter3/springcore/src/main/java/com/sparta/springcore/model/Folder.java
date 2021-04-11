@@ -17,7 +17,7 @@ public class Folder extends Timestamped {
         this.user = user;
     }
 
-    // ID가 자동으로 생성 및 증가합니다.
+    // ID가 자동으로 생성 및 증가
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
     private Long id;

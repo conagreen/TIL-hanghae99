@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class ProductMypriceRequestDto {
-    private int myprice;
+    private int myprice;    // 최저가 설정
 }
