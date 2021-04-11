@@ -145,23 +145,23 @@ function showProduct() {
 function addProductItem(product) {
     // link, image, title, lprice, myprice 변수 활용하기
     return `<div class="product-card" onclick="window.location.href='${product.link}'">
-            <div class="card-header">
-                <img src="${product.image}"
-                     alt="">
-            </div>
-            <div class="card-body">
-                <div class="title">
-                    ${product.title}
+                <div class="card-header">
+                    <img src="${product.image}"
+                         alt="">
                 </div>
-                <div class="lprice">
-                    <span>${numberWithCommas(product.lprice)}</span>원
+                <div class="card-body">
+                    <div class="title">
+                        ${product.title}
+                    </div>
+                    <div class="lprice">
+                        <span>${numberWithCommas(product.lprice)}</span>원
+                    </div>
+                    <!-- 삼항연산자 - (조건) ? (참일 경우 반환) : (거짓일 경우 반환); -->
+                    <div class="isgood ${product.lprice <= product.myprice ? '' : 'none'}">
+                        최저가
+                    </div>
                 </div>
-                <!-- 삼항연산자 - (조건) ? (참일 경우 반환) : (거짓일 경우 반환); -->
-                <div class="isgood ${product.lprice <= product.myprice ? '' : 'none'}">
-                    최저가
-                </div>
-            </div>
-        </div>`;
+            </div>`;
 }
 
 function setMyprice() {
