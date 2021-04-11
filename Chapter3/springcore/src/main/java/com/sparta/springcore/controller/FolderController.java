@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class FolderController { 
+public class FolderController {
     // 멤버 변수 선언
     private final FolderService folderService;
 
