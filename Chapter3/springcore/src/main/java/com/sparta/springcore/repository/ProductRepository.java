@@ -1,10 +1,13 @@
 package com.sparta.springcore;
 
+import org.springframework.stereotype.Repository;
+
 import java.sql.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class ProductRepository {
     private String dbId;
     private String dbPassword;

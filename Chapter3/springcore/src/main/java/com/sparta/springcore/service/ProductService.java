@@ -1,10 +1,12 @@
 package com.sparta.springcore;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.List;
 
+@Service
 public class ProductService {
     // 멤버 변수 선언
     private final ProductRepository productRepository;
