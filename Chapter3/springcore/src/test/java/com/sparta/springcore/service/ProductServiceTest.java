@@ -88,4 +88,5 @@ class ProductServiceTest {
             productService.updateProduct(productId, requestMyPriceDto);
         });
     }
+
 }

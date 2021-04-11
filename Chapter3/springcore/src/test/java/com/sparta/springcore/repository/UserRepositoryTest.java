@@ -67,4 +67,5 @@ class UserRepositoryTest {
         // 테스트 회원 데이터 삭제
         userRepository.delete(user1);
     }
+
 }

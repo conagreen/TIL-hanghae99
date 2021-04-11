@@ -37,4 +37,5 @@ public class MockProductServiceTest {
         // then
         assertEquals(myprice, result.getMyprice());
     }
+
 }

@@ -171,4 +171,5 @@ public class UserProductIntegrationTest {
         // 3. Order(2) 테스트에 의해 myPrice 가격이 정상적으로 업데이트되었는지 검증
         assertEquals(this.updatedMyPrice, foundProduct.getMyprice());
     }
+
 }

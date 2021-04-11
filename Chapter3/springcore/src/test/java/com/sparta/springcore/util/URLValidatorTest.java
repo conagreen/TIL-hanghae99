@@ -61,4 +61,5 @@ class URLValidatorTest {
         // then
         assertFalse(isValid);
     }
+
 }

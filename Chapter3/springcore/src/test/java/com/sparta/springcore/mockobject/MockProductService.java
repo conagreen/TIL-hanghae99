@@ -51,4 +51,5 @@ public class MockProductService {
         product.updateMyPrice(myPrice);
         return product;
     }
+
 }
