@@ -18,7 +18,7 @@ public class HomeController {
 
     @Autowired
     public HomeController(FolderService folderService) {
-        // 멤버 변수 생성
+        // 멤버 변수 생성.
         this.folderService = folderService;
     }
 

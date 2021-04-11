@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController // JSON으로 데이터를 주고받음을 선언합니다.
 public class ProductController {
-    // 멤버 변수 선언
+    // 멤버 변수 선언.
     private final ProductService productService;
 
     // 생성자: ProductController() 가 생성될 때 호출됨

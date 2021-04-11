@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController // JSON으로 응답함을 선언합니다.
+@RestController // JSON으로 응답함을 선언.
 public class SearchRequestController {
 
     private final NaverShopSearch naverShopSearch;
